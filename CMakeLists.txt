@@ -35,3 +35,6 @@ target_link_libraries(WasmVM WasmVM_Core)
 if(USE_SYSCALL)
 target_link_libraries(WasmVM WasmVM_Syscall)
 endif(USE_SYSCALL)
+
+enable_testing()
+add_subdirectory(tests)

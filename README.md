@@ -46,6 +46,14 @@ If you want to load more module, just concate as
 
 > ./WasmVM \<your main module\>.wasm \<module1\>.wasm \<module2\>.wasm ...
 
+## Test
+
+> make test
+
+The test is driven by CTest, which is bundled with CMake by default.
+
 ## Future work
 
 * Add Linux Syscall to `unreachable`
+
+* Add Tests and Validations
